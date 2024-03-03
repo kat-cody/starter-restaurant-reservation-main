@@ -4,6 +4,7 @@ const asyncErrorBoundary = require(".././errors/asyncErrorBoundary");
 
 //validation 
 
+
 //checks for a data object in the request
 async function validateData(request, response, next) {
   if (!request.body.data) {
